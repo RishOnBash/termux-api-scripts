@@ -10,3 +10,10 @@ A specialized suite of hardware-interfacing scripts for Android, leveraging Term
 
 ## 📁 Available Tools
 * [pwrlog](./pwrlog/) - Overnight drain telemetry.
+
+## Clone the repo
+
+ˋˋˋ
+git clone https://github.com/RishOnBash/termux-api-scripts.git
+cd termux-api-scripts
+ˋˋˋ
