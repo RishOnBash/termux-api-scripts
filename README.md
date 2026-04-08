@@ -13,7 +13,7 @@ A specialized suite of hardware-interfacing scripts for Android, leveraging Term
 
 ## Clone the repo
 
-ˋˋˋ
+```
 git clone https://github.com/RishOnBash/termux-api-scripts.git
 cd termux-api-scripts
-ˋˋˋ
+```
