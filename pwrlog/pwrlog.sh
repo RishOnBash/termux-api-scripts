@@ -17,7 +17,7 @@ PERCENTAGE=$(termux-battery-status | grep "percentage" | tr -cd [0-9])
 echo "$PERCENTAGE" >> "$BATTERY_PERCENT"
 
 # at 12:00 append drain percentage difference to a specified file 
-if (( HOUR == 12 )); then
+if (( HOUR == 6 )); then
     tail -n 2 $BATTERY_PERCENT | 
         awk 'NR==1{old=$1} NR==2{print "Drain: " old-$1 "%"}' >> \
         "$DRAIN_PERCENT"
